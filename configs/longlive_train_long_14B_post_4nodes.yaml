@@ -21,7 +21,7 @@ mixed_precision: true
 seed: 0
 wandb_key: f5f9a48dd93e3b9e30be41d1f47c9623e53b1597
 wandb_entity: "1821698873"
-wandb_project: longlive_origin
+wandb_project: longlive_locret
 sharding_strategy: hybrid_full
 lr: 1.0e-05
 lr_critic: 2.0e-06
