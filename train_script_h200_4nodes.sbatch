@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J h200_v2_longlive_train
+#SBATCH -J h200_origin
 #SBATCH -p accelerated-h200          #
 #SBATCH -N 4
 #SBATCH --gres=gpu:4
