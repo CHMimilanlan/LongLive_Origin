@@ -35,7 +35,7 @@ def main():
     config.wandb_save_dir = args.wandb_save_dir
     config.disable_wandb = args.disable_wandb
     config.auto_resume = not args.no_auto_resume  # Default to True unless --no-auto-resume is specified
-    config.use_one_logger = not args.no_one_logger
+    config.use_one_logger = False
 
     if config.trainer == "score_distillation":
         trainer = ScoreDistillationTrainer(config)

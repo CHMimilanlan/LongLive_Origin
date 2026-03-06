@@ -802,8 +802,8 @@ class Trainer:
             
             # Cleanup old checkpoints if max_checkpoints is set
             max_checkpoints = getattr(self.config, "max_checkpoints", 0)
-            if max_checkpoints > 0:
-                self.cleanup_old_checkpoints(self.output_path, max_checkpoints)
+            # if max_checkpoints > 0:
+            #     self.cleanup_old_checkpoints(self.output_path, max_checkpoints)
 
         torch.cuda.empty_cache()
         import gc
